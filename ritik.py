@@ -11,10 +11,10 @@ try:
     import config
     AUTHORIZED_USERS = [str(config.USER_ID)]
 except:
-    AUTHORIZED_USERS = ["YOUR_USER_ID_HERE"]
+    AUTHORIZED_USERS = ["6437994839"]
 
 MAX_THREADS = "999"
-MAX_PPS = "-1"
+MAX_PPS = "-10"
 SSH_USERNAME = "root"
 SSH_PASSWORD = "password"
 
